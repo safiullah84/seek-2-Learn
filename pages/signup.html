@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Create your free Seek2Learn account and start learning today."
+    />
+    <title>Sign Up — Seek2Learn</title>
+    <link rel="icon" type="image/png" href="/assets/image/favicon.png" /><link rel="shortcut icon" type="image/png" href="/assets/image/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/components/navbar.css" />
+    <link rel="stylesheet" href="../css/components/auth.css" />
+    <link rel="stylesheet" href="../css/components/footer.css" />
+  </head>
+  <body data-root="pages">
+    <nav class="navbar scrolled" id="navbar">
+      <div class="container">
+        <a href="../index.html" class="logo-text"
+          ><img
+            src="../assets/image/company-branding-logo.png"
+            alt="Seek2Learn"
+            class="logo-icon"
+            width="150"
+            height="60"
+        /></a>
+        <ul class="nav-links">
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="login.html" class="btn btn-coral">Log In</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="mobile-menu" id="mobile-menu">
+        <ul>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html" class="btn btn-coral">Log In</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="auth-page">
+      <div class="auth-card">
+        <a href="../index.html" class="logo-text"
+          ><img
+            src="../assets/image/company-branding-logo.png"
+            alt="Seek2Learn"
+            class="logo-icon"
+            width="150"
+            height="60"
+        /></a>
+        <div class="auth-header">
+          <h1>Create Your Account</h1>
+          <p>Join 50,000+ learners who is growing their skills</p>
+        </div>
+        <div id="signup-msg" class="auth-message"></div>
+        <form class="auth-form" id="signup-form">
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="John Doe"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Min. 6 characters"
+              required
+              minlength="6"
+            />
+            <button type="button" class="password-toggle">👁️</button>
+          </div>
+          <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              placeholder="Re-enter password"
+              required
+              minlength="6"
+            />
+          </div>
+          <button type="submit" class="btn btn-coral">Create Account →</button>
+        </form>
+        <div class="auth-divider"></div>
+        <p class="auth-footer">
+          Already have an account? <a href="login.html">Log in</a>
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="../index.html" class="logo-text"></a>
+            <p>Helping learners all over the world with skills that opens new doors.</p>
+            <div class="footer-socials">
+              <a
+                href="https://github.com/safiullah84"
+                aria-label="GitHub"
+                target="_blank"
+                >𝕏</a
+              ><a
+                href="https://www.instagram.com/safiullah_84"
+                aria-label="Instagram"
+                target="_blank"
+                >▣</a
+              ><a
+                href="https://www.linkedin.com/in/safiullah84/"
+                aria-label="LinkedIn"
+                target="_blank"
+                >in</a
+              >
+            </div>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="courses.html">All Courses</a></li>
+              <li><a href="learning-paths.html">Learning Paths</a></li>
+              <li><a href="live-sessions.html">Live Sessions</a></li>
+              <li><a href="certificates.html">Certificates</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="careers.html">Careers</a></li>
+              <li><a href="press-kit.html">Press Kit</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Support</h4>
+            <ul>
+              <li><a href="help-center.html">Help Center</a></li>
+              <li><a href="become-instructor.html">Become an Instructor</a></li>
+              <li><a href="affiliate.html">Affiliate Program</a></li>
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Seek2Learn. All rights reserved.</p>
+          <p>Made with ❤️ by Mohammad Safiullah</p>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/mobile-menu.js"></script>
+    <script src="../js/auth.js"></script>
+  </body>
+</html>
